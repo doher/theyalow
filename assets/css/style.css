@@ -1,0 +1,429 @@
+@import url("../css/font.css");
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.bg-wrapper {
+  background: url("../images/bg-header.png") 100% 100% no-repeat;
+  background-size: cover;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-header {
+  position: relative;
+  padding: 28px 0 0 140px;
+}
+
+.logo-header img {
+  display: inline-block;
+  position: absolute;
+}
+
+.logo-header img:nth-child(1) {
+  left: 142px;
+  top: 29px;
+}
+
+.logo-header img:nth-child(2) {
+  left: 139px;
+  top: 27px;
+}
+
+.logo-text {
+  font-size: 41px;
+  color: #ffffff;
+  padding: 28px 0 0 88px;
+  font-style: italic;
+}
+
+.navbar ul {
+  padding: 71px 140px 0 0;
+  text-decoration: none;
+}
+
+.person-button, .wrench-button, .letter-button {
+  display: inline-block;
+  height: 41px;
+  font-size: 17px;
+  background-color: #f5c506;
+  line-height: 41px;
+}
+
+.person-button {
+  width: 171px;
+  border-right: 1px solid #9b7d08;
+}
+
+.wrench-button {
+  width: 132px;
+  border-right: 1px solid #9b7d08;
+}
+
+.letter-button {
+  width: 148px;
+}
+
+a {
+  text-decoration: none;
+  color: #9b7d08;
+}
+
+.navbar-li {
+  padding-left: 4px;
+}
+
+.navbar-li span {
+  font-family: "SegoeWP", Arial, Helvetica, sans-serif;
+}
+
+.interactive-arrow {
+  position: relative;
+}
+
+.video-section {
+  padding: 53px 0 71px 150px;
+  position: relative;
+}
+
+.main-text {
+  font-family: "SegoeWP", Arial, Helvetica, sans-serif;
+  padding: 79px 159px 0 51px;
+  font-size: 63px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main-text span {
+  color: #f5c506;
+}
+
+.play-button {
+  background-color: #f5c506;
+  height: 67px;
+  width: 67px;
+  border-radius: 50%;
+  position: absolute;
+  top: 183px;
+  left: 391px;
+  opacity: 0.7;
+}
+
+.play {
+  padding: 17px 0 0 27px;
+}
+
+.bg-banner {
+  background: url("../images/bg-icon.png");
+}
+
+.banner-section {
+  font-size: 27px;
+  padding: 0 140px;
+  align-items: center;
+}
+
+.banner-section>figure {
+  flex: 1;
+  height: 212px;
+  text-align: center;
+  border-left: 1px solid #d4d4d4;
+}
+
+figure>figcaption {
+  font-family: "Asap-Light", Arial, Helvetica, sans-serif;
+  font-weight: 10;
+  padding-top: 10px;
+}
+
+.banner-section>figure:nth-child(3) {
+  border-right: 1px solid #d4d4d4;
+}
+
+.cloud-icon {
+  margin: 60px 0 0 -6px;
+}
+
+.leaf-icon {
+  margin: 36px 0 0 22px;
+  ;
+}
+
+.airplane-icon {
+  margin: 53px 0 0 -22px;
+}
+
+.arrow-left, .arrow-right {
+  position: absolute;
+  width: 32px;
+  height: 57px;
+  background-color: #c5a20a;
+  top: 185px;
+}
+
+.arrow-left {
+  left: 0;
+}
+
+.arrow-right {
+  right: 0;
+}
+
+.arrow-left img {
+  padding: 19px 0 0 8px;
+}
+
+.arrow-right img {
+  padding: 18px 0 0 11px;
+}
+
+.bg-carousel {
+  background: url("../images/bg-carousel.png");
+}
+
+.carousel-section {
+  height: 508px;
+  padding: 0 140px;
+  position: relative;
+}
+
+h3 {
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.carousel-header {
+  padding: 43px 0 0;
+  color: white;
+  font-size: 37px;
+}
+
+.carousel-interactive {
+  padding-top: 30px;
+}
+
+.carousel-interactive>div {
+  flex: 1;
+}
+
+.carousel-info {
+  background-color: #ec9e03;
+  position: relative;
+}
+
+.carousel-info p {
+  font-size: 29px;
+  font-family: "SegoeWP", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 30px;
+  line-height: 1.7;
+}
+
+.info-plus {
+  position: absolute;
+  bottom: 15px;
+  right: 14px;
+}
+
+.carousel-play-button {
+  background-color: #f5c506;
+  height: 61px;
+  width: 61px;
+  border-radius: 50%;
+  position: absolute;
+  top: 203px;
+  left: 610px;
+  opacity: 0.7;
+}
+
+.carousel-play {
+  padding: 14px 0 0 24px;
+}
+
+.carousel-twitter {
+  background-color: #ec9e03;
+  text-align: center;
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  top: 16px;
+  right: 19px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.twitter-plus {
+  position: absolute;
+  bottom: 15px;
+  right: 11px;
+}
+
+.twitter-icon {
+  padding: 58px 0 0 6px;
+}
+
+.date {
+  font-family: "SegoeWP", Arial, Helvetica, sans-serif;
+  display: inline-block;
+  background-color: #ddb101;
+  height: 86px;
+  width: 113px;
+}
+
+.number-date {
+  font-size: 51px;
+  color: #ffffff;
+  padding: 3px 0 0 31px
+}
+
+.month {
+  font-size: 21px;
+  color: #b26529;
+  padding: 2px 0 0 31px;
+}
+
+.bg-responsive {
+  background: url("../images/bg-info.png");
+  height: 497px;
+}
+
+.responsive-header {
+  font-size: 43px;
+  text-align: center;
+  color: #f5c506;
+  padding-top: 49px;
+}
+
+.responsive-section {
+  padding: 0 140px;
+}
+
+.responsive-main {
+  padding-top: 45px;
+}
+
+.responsive-images {
+  flex: 1.6;
+  position: relative;
+}
+
+.responsive-images img {
+  position: absolute;
+}
+
+.computer-image {
+  left: 18px;
+}
+
+.tablet-image {
+  top: 42px;
+  left: 365px;
+}
+
+.mobile-image {
+  top: 152px;
+  right: 20px;
+}
+
+.circle-free {
+  display: inline-block;
+  position: absolute;
+  background-color: #f5c506;
+  border-radius: 50%;
+  width: 116px;
+  height: 116px;
+  top: -43px;
+  left: -2px;
+}
+
+.circle-free>p {
+  color: #ffffff;
+  text-align: center;
+  line-height: 116px;
+  font-size: 15px;
+}
+
+.responsive-list {
+  flex: 1;
+  list-style-image: url("../images/ellipse.svg");
+  list-style-position: outside;
+  padding: 31px 0 0 81px;
+  line-height: 1.4;
+}
+
+.responsive-list>li {
+  text-transform: capitalize;
+  color: #a9a9a7;
+  font-size: 22px;
+}
+
+.responsive-list>li:nth-child(1) {
+  padding: 12px 0 0 13px;
+}
+
+.responsive-list>li:nth-child(2) {
+  padding: 20px 0 0 13px
+}
+
+.responsive-list>li:nth-child(3) {
+  padding: 6px 0 0 13px;
+}
+
+.responsive-list>li:nth-child(4) {
+  padding: 21px 0 0 13px;
+}
+
+.bg-footer {
+  background-color: #4c4c4c;
+  height: 64px;
+}
+
+.logo-footer {
+  position: relative;
+  padding: 0 140px;
+}
+
+.logo-footer>img {
+  position: absolute;
+  width: 54px;
+}
+
+.footer-back-logo {
+  top: 4px;
+  left: 140px;
+}
+
+.footer-front-logo {
+  top: 6px;
+  left: 140px;
+}
+
+.footer-logo-text {
+  color: #ffffff;
+  font-size: 29px;
+  padding: 20px 0 0 62px;
+  font-style: italic;
+}
