@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'SegoeWP';
+  src: url('../fonts/SegoeWP.ttf');
+}
+
+@font-face {
+  font-family: 'Asap-Light';
+  src: url('../fonts/segoe-wp-light.ttf');
+}
+
+@font-face {
+  font-family: 'Asap';
+  src: url('../fonts/Asap-Medium.otf');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('../fonts/PTC55F.ttf');
+}
